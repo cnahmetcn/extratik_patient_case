@@ -14,10 +14,6 @@ use App\Http\Controllers\PatientController;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
 Route::get('/', [PatientController::class, 'index']);
 
 
